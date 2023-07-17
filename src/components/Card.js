@@ -22,6 +22,7 @@ function Card({
       setChecked(false);
     }
   };
+
   return (
     <section
       className="
@@ -79,7 +80,7 @@ function Card({
                 className={
                   isActive
                     ? "w-full block text-base font-semibold text-primary bg-paxOrange text-white border-[#D4DEFF] rounded-md text-center p-4"
-                    : "w-full block text-base font-semibold text-primary bg-transparent border border-[#D4DEFF] rounded-md text-center p-4 hover:text-white hover:bg-primary hover:border-paxOrange transition"
+                    : "w-full block text-base font-semibold text-primary bg-transparent border border-[#D4DEFF] rounded-md text-center p-4 hover:text-black hover:bg-white hover:border-paxOrange transition"
                 }
               >
                 <input
