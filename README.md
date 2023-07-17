@@ -44,7 +44,7 @@ Diese Punkte hätte ich noch gemacht:
 - Vielen Dank Komponente komplett provisorisch. Das kann man noch schöner und besser darstellen -> jedoch war mir die Möglichkeit wichtig und nicht der Design hier.
 - Viel hardcoded Stuff -> könnte man dynamisch anzeigen lassen ( vorallem wenn man i118n hat, müsste man das über eine json auslesen)
 - so gut wie möglich auf Variablen und co geachtet, jedoch war die Zeitangabe sehr straff und deshalb viel heruntergecoded.
-
+- keine Sicherheitsaspekte 
 
 
 
