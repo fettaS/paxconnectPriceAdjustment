@@ -32,3 +32,19 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## TODO:  
+Diese Punkte hätte ich noch gemacht:
+- 4711 hard gecoded
+- Form Validation für alle Felder ( Beispiel bei Login -> wenn falsches PW kommt Fehlermeldung)
+- einige Tailwind Anpassungen (Cards sind nicht komplett gleich groß, da die erste Überschrift größer ist als die anderen)
+- Vorauswahl einer Karte passend zur aktuell genutzten Lizenzversion. ( Zur Zeit nur eine Auswahl möglich, jedoch kann man neben dem Auswahl noch ein Dropdown mit Anzahl machen)
+- Mailadresse mit Checkbox -> wollen Sie eine aktuelle Mailadresse eingeben? Input wäre dann solange disabled.
+- 3 Buttons als Möglichkeit mit jeweils 3 verschiedenen PUTS -> man könnte auch ein Dropdown mit der gewünschten Änderung machen und nur ein submit button
+- Vielen Dank Komponente komplett provisorisch. Das kann man noch schöner und besser darstellen -> jedoch war mir die Möglichkeit wichtig und nicht der Design hier.
+- Viel hardcoded Stuff -> könnte man dynamisch anzeigen lassen ( vorallem wenn man i118n hat, müsste man das über eine json auslesen)
+- so gut wie möglich auf Variablen und co geachtet, jedoch war die Zeitangabe sehr straff und deshalb viel heruntergecoded.
+
+
+
+

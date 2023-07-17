@@ -1,6 +1,6 @@
 import { React, useState } from "react";
 
-function MailInput({ onMailChange }) {
+function MailInput({ onMailChange, mail }) {
   const [disabled, setDisabled] = useState(false);
 
   const handleChange = (e) => {
@@ -14,6 +14,7 @@ function MailInput({ onMailChange }) {
     <div className="relative flex flex-col-reverse w-72">
       <input
         name={"mail"}
+        value={mail}
         onChange={handleChange}
         className={`peer w-full pb-1 pt-6 px-3 text-base rounded-lg border border-gray-400 focus:border-paxOrange text-black
          bg-white focus:outline-none focus:ring-0 appearance-none transition-colors duration-300 ${

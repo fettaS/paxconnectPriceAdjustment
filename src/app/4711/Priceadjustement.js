@@ -156,7 +156,11 @@ function Priceadjustement() {
         ></Card>
       </div>
       <div className="flex flex-col justify-center lg:justify-center sm:flex-row w-full items-center content-center mb-6">
-        <MailInput onMailChange={handleMailChange} className="basis-1/4" />
+        <MailInput
+          mail={data.knownEmail}
+          onMailChange={handleMailChange}
+          className="basis-1/4"
+        />
       </div>
       <div className="flex flex-col justify-center lg:justify-center sm:flex-row w-full items-center content-center gap-8 ml-12 mr-12 mb-6">
         <button

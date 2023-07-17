@@ -44,7 +44,9 @@ export default function ThankYou() {
                   d="M7 16l-4-4m0 0l4-4m-4 4h18"
                 />
               </svg>
-              <span className="text-sm font-medium">Home</span>
+              <span className="text-sm font-medium text-black">
+                Sie können diese Seite nun schließen
+              </span>
             </a>
           </div>
         </div>
